@@ -1,17 +1,27 @@
+/* why choose svg vs draw css - less js (performance), simple clean*/
+/* carousel consideration - motion sickness */
+/* browser support? */
 
 body{
-margin:0;
-padding:0;
-/*background:#000;*/
-font-family:"Helvetica Neue",Helvetica, Arial;
+	margin:0;
+	padding:0;
+	font-family:"Helvetica Neue",Helvetica, Arial;
+
+	background: url('../img/trapezoid-svg.svg') no-repeat   center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 div {
 	border: black 1px solid;
 }
 
+
 .container {
 	width: 100%;
+
 }
 
 h1{
