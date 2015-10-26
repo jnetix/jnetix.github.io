@@ -3,9 +3,9 @@
 /* browser support? */
 
 body{
+	font-family:"Helvetica Neue",Helvetica, Arial;
 	margin:0;
 	padding:0;
-	font-family:"Helvetica Neue",Helvetica, Arial;
 
 	background: url('../img/trapezoid-svg.svg') no-repeat   center center fixed;
 	-webkit-background-size: cover;
@@ -14,34 +14,43 @@ body{
 	background-size: cover;
 }
 
-div {
+/*div {
 	border: black 1px solid;
-}
+}*/
 
 
 .container {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
 	width: 100%;
-
 }
 
 h1{
-
-text-align:left;
-top: 25%;
-font-size: 38px;
+	color: #5800CC;
+	font-size: 64px;
+	margin-left: 60%;
+	text-align: left;
 }
-
-
-h3{
-font-size: 24px;
-}
-
 
 h2{
-font-family: Georgia;
-color: #ffe400;
-font-size: 24px;
-margin-bottom: 20px;
+	color: #FFFF00;
+	font-size: 36px;
+	margin: 25% 0% 5% 10%;
+}
+
+h3{
+	color: #FFFFFF;
+	font-size: 24px;
+	margin-left: 10%;
+}
+
+.contacts {
+	color: #FFFFFF;
+	font-size: 1.75vw;
+	font-size: 24px;
+	margin-left: 10%;
+	padding: 2px;
 }
 
 
