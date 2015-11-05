@@ -41,14 +41,16 @@ body{
 		position: absolute;
 		top: 0%;
 		transform: translateY(0%);
+		padding-left: 0px;
+		padding-right: 0px; 
 	}
 }
 
 h1,h2,h3,.contacts {
 	margin-left: 10%;
 }
-/* Bad bootstrap hack */
 
+/* Bad bootstrap hack */
 @media (max-width: 767px){
 	.name {
 		background-color: #FFFF00;
@@ -65,7 +67,7 @@ h1{
 
 @media (min-width: 768px){
 	h1 {
-		margin-left: 60%;
+		margin-left: 55%;
 	}
 }
 
