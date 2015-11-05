@@ -1,0 +1,105 @@
+/* why choose svg vs draw css - less js (performance), simple clean*/
+/* carousel consideration - motion sickness */
+/* browser support? */
+/* font-size: not use variable vw - unpredictable on mobile - keep it simple*/
+
+
+
+
+body{
+	font-family:"Helvetica Neue",Helvetica, Arial;
+	margin:0;
+	padding:0;
+
+	background: url('../img/trapezoid-svg.svg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+@media (max-width: 767px){
+	body {
+		background: none;
+		background-color: #6e00ff;
+	}
+}
+
+/*div {
+	border: black 1px solid;
+}*/
+
+
+.container {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		width: 100%;
+	}
+@media (max-width: 767px){
+	.container {
+		position: absolute;
+		top: 0%;
+		transform: translateY(0%);
+		padding-left: 0px;
+		padding-right: 0px; 
+	}
+}
+
+h1,h2,h3,.contacts {
+	margin-left: 10%;
+}
+
+/* Bad bootstrap hack */
+@media (max-width: 767px){
+	.name {
+		background-color: #FFFF00;
+		border-top: #FFFF00 1px solid;
+		padding-bottom: 5%;
+	}
+}
+
+h1{
+	color: #5800CC;
+	font-size: 64px;
+	text-align: left;
+}
+
+@media (min-width: 768px){
+	h1 {
+		margin-left: 55%;
+	}
+}
+
+h2{
+	color: #FFFF00;
+	font-size: 36px;
+	margin: 25% 0% 5% 10%;
+}
+@media (max-width: 767px){
+	h2 {
+		margin-top: 5%;
+	}
+}
+
+h3{
+	color: #FFFFFF;
+	font-size: 24px;
+}
+
+.contacts a {
+	color: #FFFFFF;
+	font-size: 24px;
+	padding: 2px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.contacts a:hover {
+	color: #FFFF00;
+	text-decoration: none;
+	text-shadow: 5px 5px 5px #5800CC;
+}
+
+
