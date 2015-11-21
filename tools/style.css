@@ -21,7 +21,7 @@ body{
 @media (max-width: 767px){
 	body {
 		background: none;
-		background-color: #5800CC;
+		background-color: #6E00FF;
 	}
 }
 
@@ -60,7 +60,8 @@ h1,h2,h3,.contacts {
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		background-size: cover;
-		min-height: 40vh; 
+		min-height: 40vh;
+ 
 	}
 }
 
