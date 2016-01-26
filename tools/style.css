@@ -21,7 +21,7 @@ body{
 @media (max-width: 767px){
 	body {
 		background: none;
-		background-color: #6E00FF;
+		background-color: #453695;
 	}
 }
 
@@ -66,7 +66,7 @@ h1,h2,h3,.contacts {
 }
 
 h1{
-	color: #5800CC;
+	color: #453695;
 	font-size: 48px;
 	text-align: left;
 }
@@ -116,7 +116,7 @@ h3{
 .contacts a:hover {
 	color: #FFFF00;
 	text-decoration: none;
-	text-shadow: 5px 5px 5px #5800CC;
+	text-shadow: 5px 5px 5px #414042;
 }
 
 
