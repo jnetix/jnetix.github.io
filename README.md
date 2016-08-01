@@ -1,2 +1,5 @@
 # jnetix.github.io
-Jnet's personal porfolio
+
+Please visit [www.jnetix.com](https://www.jnetix.com) for my full portfolio.
+
+Currently, this is the temporary "under contruction" landing page for Jnetix Designs. 
